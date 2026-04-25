@@ -18,7 +18,7 @@ h1 {
 /* Sous-titre */
 p {
   color: #8b949e;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 /* Titres de section */
@@ -44,4 +44,23 @@ li {
 li::before {
   content: "→ ";
   color: #5DCAA5;
+}
+/* Carte de profil */
+.profil {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #5DCAA5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
 }
