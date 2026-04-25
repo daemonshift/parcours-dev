@@ -1,0 +1,47 @@
+/* Mise en page générale */
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 2rem;
+  color: #5DCAA5;
+  margin-bottom: 0.5rem;
+}
+
+/* Sous-titre */
+p {
+  color: #8b949e;
+  margin-bottom: 2rem;
+}
+
+/* Titres de section */
+h2 {
+  font-size: 1.2rem;
+  color: #AFA9EC;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 0.5rem;
+}
+
+/* Listes */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.4rem 0;
+  color: #e6edf3;
+}
+
+li::before {
+  content: "→ ";
+  color: #5DCAA5;
+}
