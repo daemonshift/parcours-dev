@@ -64,3 +64,21 @@ li::before {
   font-size: 1.5rem;
   flex-shrink: 0;
 }
+/* Grille de projets */
+.grille-projets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: #161b22;
+  border: 0.5px solid #30363d;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card h3 {
+  color: #AFA9EC;
+  margin-bottom: 0.5rem;
+}
