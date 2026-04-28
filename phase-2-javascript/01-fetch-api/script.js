@@ -30,6 +30,6 @@ async function chercherPays(nom) {
       </div>
     `
   } catch (erreur) {
-    resultat.innerHTML = '<p class="erreur">Pays introuvable. Essaie en anglais !</p>'
+    resultat.innerHTML = '<p class="erreur">Pays introuvable. Essaie le nom du pays dans sa propre langue !</p>'
   }
 }
